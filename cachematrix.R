@@ -3,33 +3,12 @@
 
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 ## this function is used to set,get,set the inverse and get the inverse of an input matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         
         inv_matrix <- NULL
-        set <- function(y)    # set the value f## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
-## this function is used to set,get,set the inverse and get the inverse of an input matrix
-
-makeCacheMatrix <- function(x = matrix()) {
-        
-or the matreix given as input
+        set <- function(y)    # set the value for the matreix given as input
         {
                 x <<- y
                 inv_matrix <<- NULL
@@ -59,13 +38,4 @@ x$setinv(m)
 m
 
 
-}
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
 }
